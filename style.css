@@ -1,0 +1,97 @@
+:root, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    cursor: crosshair;
+    overflow: hidden;
+}
+
+/* .crosshair {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.crosshair > div {
+    border: 1px solid black;
+    height: 19px;
+    width: 19px;
+} */
+
+#enemy1 {
+    height: 100px;
+    width: 40px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+#enemy-head {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background: khaki;
+    border-radius: 50%;
+    left: 10px;
+}
+#enemy-body {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    background: khaki;
+}
+#left-arm {
+    height: 40px;
+    width: 10px;
+    border-radius: 10px;
+    background: khaki;
+    position: absolute;
+}
+#main-body {
+    height: 40px;
+    width: 20px;
+    border-radius: 2.5px 2.5px 0 0;
+    position: absolute;
+    left: 10px;
+    background: green;
+}
+#right-arm {
+    height: 40px;
+    width: 10px;
+    border-radius: 10px;
+    background: khaki;
+    position: absolute;
+    left: 30px;
+}
+#enemy-legs {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 60px;
+}
+#left-leg {
+    height: 40px;
+    width: 10px;
+    position: absolute;
+    left: 10px;
+    border-radius: 0 0 10px 10px;
+    background: blue;
+}
+
+#right-leg {
+    height: 40px;
+    width: 10px;
+    position: absolute;
+    left: 20px;
+    border-radius: 0 0 10px 10px;
+    background: blue;
+    border-left: 1px solid black;
+}
